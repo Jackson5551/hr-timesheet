@@ -8,14 +8,30 @@ import { MatListModule } from '@angular/material/list'
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatTabsModule } from '@angular/material/tabs'
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, MatToolbarModule,MatButtonModule,MatIconModule, MatCardModule, MatListModule,MatInputModule,
-MatFormFieldModule,
-ReactiveFormsModule],
-  exports: [MatToolbarModule, MatButtonModule,MatIconModule, MatCardModule, MatListModule,MatInputModule,
-MatFormFieldModule,
-ReactiveFormsModule],
+  imports: [
+    CommonModule,
+    MatToolbarModule, 
+    MatButtonModule, 
+    MatIconModule, 
+    MatCardModule, 
+    MatListModule, 
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatTabsModule],
+  exports: [
+    MatToolbarModule, 
+    MatButtonModule, 
+    MatIconModule, 
+    MatCardModule, 
+    MatListModule, 
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatTabsModule],
 })
 export class MaterialModule { }
