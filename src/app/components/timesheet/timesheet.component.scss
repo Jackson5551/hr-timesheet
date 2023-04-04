@@ -5,3 +5,33 @@ h2 {
 .cards {
     margin: auto;
 }
+
+.add-employee-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+mat-form-field {
+    width: calc(100% - 40px);
+}
+
+.hours {
+    min-height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hours-input {
+    max-width: 75px;
+    margin-left: 15px;
+    text-align: center;
+}

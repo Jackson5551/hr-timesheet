@@ -9,6 +9,7 @@ import { TimesheetComponent } from './components/timesheet/timesheet.component';
 import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
 import { AnalyticsTableComponent } from './components/analytics-table/analytics-table.component';
+import { FormsModule } from '@angular/forms';
 
 import { MaterialModule } from './modules/material/material.module';
 
@@ -26,6 +27,7 @@ import { MaterialModule } from './modules/material/material.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
